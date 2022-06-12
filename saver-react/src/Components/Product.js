@@ -5,7 +5,6 @@ function Product(props){
     //States  
     const [products, setProducts] = useState([]);
     const [loading,setLoading] = useState(true);
-    // const [value, setValue] = useState('');
 
  useEffect( ()=>{
   async function fetchData(){
