@@ -54,42 +54,16 @@ function Item(props){
 function BufferProduct(){
   return(
     <div >
-      {loading ? <Buffer /> : <Item product_link={products.product_link}/> }
+      {loading ? <Buffer /> : <Item /> }
       </div>
   )
 }
    
-    return(
-        <div >
-  
-  
-
+return(
+  <div >
     <BufferProduct />
-     
-       {/* <ul>
-        {products.map((item, i) => {
-          return (
-          <div>
-        <h1>{item.name}</h1>
-          <li key={i}>{item.name}</li>
-          </div>
-          )
-        })}
-      </ul> */}
-
-   {/* {products && <h1>{products.name}</h1> } */}
-   {/* <input
-        type="text"
-        id="message"
-        name="message"
-        onChange={changeEvent}
-        value={value}
-      />
-
-      <h2>Message: {value}</h2> */}
-
-        </div>
-    );
+    </div>
+    )
 }
 
 export default Product
